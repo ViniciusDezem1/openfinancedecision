@@ -41,7 +41,7 @@ The application can be run in two ways:
 flask --app app run
 ```
 
-The API will be available at `http://localhost:5000`
+The API will be available at `http://127.0.0.1:5000/openapi/scalar`
 
 ### Environment Variables
 
@@ -56,8 +56,8 @@ export FLASK_DEBUG=1         # Enable debug mode
 ## API Documentation
 
 Once the server is running, you can access the OpenAPI documentation at:
-- Swagger UI: `http://localhost:5000/openapi/swagger`
-- ReDoc: `http://localhost:5000/openapi/redoc`
+- Swagger UI: `http://127.0.0.1:5000/openapi/scalar`
+- ReDoc: `http://127.0.0.1:5000/openapi/scalar`
 
 ### Available Endpoints
 
@@ -116,10 +116,3 @@ To add a new MCDA method:
 4. Add the route to `app.py`
 5. Update the OpenAPI documentation
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-[Add your license information here]
